@@ -1,2 +1,12 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector('#goToPage')
+
+    if (btn){
+        btn.addEventListener('click', () => {
+            const name = document.querySelector('input').value
+            if (name.trim() !== ""){
+                window.location.href = `/${name.trim()}`
+            }
+        })
+    }
+})
