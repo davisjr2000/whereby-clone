@@ -1,2 +1,16 @@
-<h1>Rooms#show</h1>
-<p>Find me in app/views/rooms/show.html.erb</p>
+<%
+=begin%>
+ <h3><%= @room.name %></h3> 
+<%
+=end%>
+
+
+
+    <div id="videos">
+        <div id="subscriber"></div>
+        <div id="publisher"></div>
+    </div>
+    
+ <%= javascript_tag do %>
+    <%= render(:partial => 'video', :handlers => [:erb], :formats => [:js]) %>
+  <% end %>

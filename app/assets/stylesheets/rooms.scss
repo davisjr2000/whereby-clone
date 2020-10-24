@@ -1,3 +1,13 @@
-// Place all the styles related to the rooms controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#videos {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscriber, #publisher {
+    width: 50%;
+    margin: 10% 2%;
+}
+
