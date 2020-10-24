@@ -7,10 +7,17 @@
 
 
     <div id="videos">
-        <div id="subscriber"></div>
+        <div id="subscriber">
+          <div id="noSubscriber">
+            <span>Waiting for other people to arrive</span>
+            <div class="copyLink">
+              <span><%= request.original_url %></span>
+            </div>
+          </div>
+        </div>
         <div id="publisher"></div>
     </div>
-    
- <%= javascript_tag do %>
-    <%= render(:partial => 'video', :handlers => [:erb], :formats => [:js]) %>
-  <% end %>
+
+<%= javascript_tag do %>
+  <%= render(:partial => 'video', :handlers => [:erb], :formats => [:js]) %>
+<% end %>

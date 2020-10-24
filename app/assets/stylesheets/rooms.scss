@@ -9,5 +9,15 @@
 #subscriber, #publisher {
     width: 50%;
     margin: 10% 2%;
+    position: relative;
 }
 
+#noSubscriber {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: darkslategrey;
+  color: white;
+  text-align: center;
+
+}

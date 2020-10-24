@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
+.whereby {
+    background: white;
+    width: 60%;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+
+    h1 {
+        color: black;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    input {
+        width: 80%;
+        height: 30px;
+        font-size: 1em;
+        padding: 5px;
+        margin: 20px 0 10px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+
+    button {
+        color: #006654;
+        border: 1px solid #006654;
+        padding: 5px;
+        border-radius: 5px;
+        background: transparent;
+        width: 80%;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+}
   html,
   body {
     margin: 0;
@@ -16,7 +51,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FD940A;
-    background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+    background-color: #006654
   }
   
