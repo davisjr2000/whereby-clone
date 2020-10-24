@@ -1,14 +1,10 @@
-<%
-=begin%>
- <div class="whereby">
-   <h1>Whereby</h1>
-   <input type="text" placeholder="Room Name">
-   <button id="goToPage">Join Room</button>
+<div class="whereby">
+  <h1>Dedechat</h1>
+  <%= form_for @room do |f| %>
+    <%= f.text_field :name %>
+    <%= f.button "Join Room" %>
+  <% end %>
 </div> 
-<%
-=end%>
 
-<%= form_for @room do |f| %>
-  <%= f.text_field :name %>
-  <%= f.submit "Join Room" %>
-<% end %>
+
+
