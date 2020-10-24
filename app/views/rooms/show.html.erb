@@ -5,15 +5,21 @@
 =end%>
 
 
-
     <div id="videos">
         <div id="subscriber">
-          <div id="noSubscriber">
-            <span>Waiting for other people to arrive</span>
-            <div class="copyLink">
-              <span><%= request.original_url %></span>
+          <section id="noSubscriber">
+            <div>
+              <span class="title">Waiting for other people to arrive</span>
+              <div class="copyLink">
+                <span class="originalUrl">
+                  <%= request.original_url %>
+                </span>
+                <button id="buttonCopy">
+                Copy Link
+                </button>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
         <div id="publisher"></div>
     </div>
