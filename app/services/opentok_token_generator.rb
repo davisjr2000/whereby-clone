@@ -1,6 +1,7 @@
-require "opentok"
-
 class OpentokTokenGenerator < ApplicationService
+    
+   require "opentok"
+
    def initialize(room)
      @room = room
    end
