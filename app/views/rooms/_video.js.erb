@@ -26,7 +26,7 @@ const initializeSession = () => {
     }
   });
 
-  // create subscriber
+  // Create subscriber
   session.on('streamCreated', function(event) {
     session.subscribe(event.stream, 'subscriber', {
       insertMode: 'append',
