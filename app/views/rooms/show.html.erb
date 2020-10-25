@@ -1,5 +1,4 @@
 <% if @room %>
-
   <div id="videos">
       <div id="subscriber">
         <section class="noSubscriber">
@@ -19,7 +18,7 @@
       <div id="publisher"></div>
   </div>
   <div>
-    <button>
+    <button class="greenBtn">
       Leave Room
     </button>
   </div>
@@ -35,7 +34,7 @@
         The room <strong>⁨/<%= params[:name] %></strong>⁩ is nowhere to be found. Are you sure you’ve entered the correct address?
       </p>
       <%= link_to root_path do %>
-        <button>
+        <button class="greenBtn">
           Back to homepage
         </button>
       <% end %>

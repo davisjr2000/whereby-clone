@@ -3,7 +3,7 @@
     <h1>Dedechat</h1>
     <%= form_for @room do |f| %>
       <%= f.text_field :name, required: true %>
-      <%= f.button "Join Room" %>
+      <%= f.button "Join Room", class: 'greenBtn' %>
     <% end %>
   </div> 
 </div>
