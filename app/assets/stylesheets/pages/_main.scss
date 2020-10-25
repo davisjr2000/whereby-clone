@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $green;
+}
+html {
+  height: 100%;
+}
+body, input[type="text"] {
+  font-family: 'Montserrat', sans-serif;
+}

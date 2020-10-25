@@ -1,0 +1,33 @@
+.wherebyContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .whereby {
+    background: $white;
+    width: 35%;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+
+    h1 {
+        color: $black;
+        font-weight: 400;
+        margin: 0;
+        font-family: 'Ribeye Marrow', cursive;
+    }
+
+    input {
+        width: 80%;
+        height: 30px;
+        font-size: 1em;
+        padding: 5px;
+        margin: 20px 0 10px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+  }
+}
+  

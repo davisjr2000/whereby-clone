@@ -9,7 +9,7 @@ class RoomsController < ApplicationController
   end
 
   def show
-    @room = Room.find_or_create_by(name: params[:name])
+    @room = Room.find_by(name: params[:name])
   end
 
   private
