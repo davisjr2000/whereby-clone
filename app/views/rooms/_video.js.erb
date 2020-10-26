@@ -9,7 +9,7 @@ const handleError = (errors) => {
 const initializeSession = () => {
   const session = OT.initSession(apiKey, sessionId);
 
-   // Create a publisher
+  // Create a publisher
   const publisher = OT.initPublisher('publisher', {
     insertMode: 'append',
     width: '100%',
@@ -37,4 +37,4 @@ const initializeSession = () => {
 
 }
 
-// initializeSession();
+initializeSession();
