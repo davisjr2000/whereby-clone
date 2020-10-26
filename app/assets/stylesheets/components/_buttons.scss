@@ -1,0 +1,33 @@
+.greenBtn {
+    font-family: 'Montserrat', sans-serif;
+    color: $green;
+    border: 1px solid $green;
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    width: 80%;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: white;
+      background: $green;
+    }
+}
+
+.orangeBtn {
+    font-family: 'Montserrat', sans-serif;
+    background: $orange;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;    
+}
+
+.leaveRoom {
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}

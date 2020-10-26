@@ -19,7 +19,7 @@
 .noSubscriber, .noRoomContainer {
   width: 100%;
   height: 100%;
-  background: darkslategrey;
+  background: $grey;
   text-align: center;
   flex: 1 1 auto;
   display: flex;
@@ -35,19 +35,10 @@
   .copyLink {
     margin-top: 10px;
     .originalUrl {
-      color: #f8e3c8;
-      border: 1px solid #f8e3c8;
+      color:$orange;
+      border: 1px solid $orange;
       padding: 15px;
       border-radius: 5px;
-    }
-
-    button {
-      background: #f8e3c8;
-      border-radius: 5px;
-      padding: 15px;
-      border: none;
-      margin-left: 10px;
-      cursor: pointer;
     }
   }
 }

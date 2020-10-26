@@ -8,7 +8,7 @@
               <span class="originalUrl">
                 <%= request.original_url %>
               </span>
-              <button id="buttonCopy">
+              <button id="buttonCopy" class="orangeBtn">
               Copy Link
               </button>
             </div>
@@ -17,11 +17,11 @@
       </div>
       <div id="publisher"></div>
   </div>
-  <div>
-    <button class="greenBtn">
+  <%= link_to root_path do %>
+    <button class="orangeBtn leaveRoom">
       Leave Room
     </button>
-  </div>
+  <% end %>
   <%= javascript_tag do %>
     <%= render(:partial => 'video', :handlers => [:erb], :formats => [:js]) %>
   <% end %>
