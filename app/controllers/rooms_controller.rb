@@ -1,7 +1,7 @@
 class RoomsController < ApplicationController
   def create
     @room = Room.find_or_create_by(room_params)
-    if @room 
+    if @room.id 
       redirect_to room_path(@room.name)
     else
       redirect_to root_path

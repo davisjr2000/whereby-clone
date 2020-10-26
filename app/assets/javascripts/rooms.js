@@ -14,6 +14,6 @@ const copyToClipboard = () => {
     document.body.removeChild(textArea);
     buttonCopy.innerHTML = "Copied!"
     setTimeout(() => { 
-        buttonCopy.innerHTML = "Copy Link"
+        buttonCopy.innerHTML = "Copy"
     }, 3000);   
 }

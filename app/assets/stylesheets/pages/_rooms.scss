@@ -4,12 +4,21 @@
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: #{$mobile}) {
+      flex-flow: wrap;
+      height: 85vh;
+    }
 }
 
 #subscriber, #publisher {
     width: 50%;
     margin: 10% 2%;
     position: relative;
+    @media (max-width: #{$mobile}) {
+      width: 100%;
+      margin: 3%;
+    }
 }
 
 .OT_widget-container {
@@ -39,6 +48,10 @@
       border: 1px solid $orange;
       padding: 15px;
       border-radius: 5px;
+      @media (max-width: #{$mobile}) {
+        display: block;
+        margin-bottom: 10px;
+      }
     }
   }
 }
@@ -54,6 +67,19 @@
       font-weight: 400;
       font-family: 'Ribeye Marrow', cursive;
       font-size: 2em;
+    }
+  }
+}
+
+@media (max-width: #{$mobile}) {
+  a {
+    display: flex;
+    text-decoration: none;
+    .leaveRoom {
+      position: relative;
+      margin: 5% auto;
+      text-decoration: none;
+      left: 0;
     }
   }
 }
