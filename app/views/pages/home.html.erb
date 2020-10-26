@@ -1,19 +1,11 @@
-
-<div id="Clouds">
-  <div class="Cloud Foreground"></div>
-  <div class="Cloud Background"></div>
-  <div class="Cloud Foreground"></div>
-  <div class="Cloud Background"></div>
-  <div class="Cloud Foreground"></div>
-  <div class="Cloud Background"></div>
-  <div class="Cloud Background"></div>
-  <div class="Cloud Foreground"></div>
-  <div class="Cloud Background"></div>
-  <div class="Cloud Background"></div>
+<div class="wherebyContainer">
+  <div class="whereby">
+    <h1>Dedechat</h1>
+    <%= form_for @room do |f| %>
+      <%= f.text_field :name, required: true %>
+      <%= f.button "Join Room", class: 'greenBtn' %>
+    <% end %>
+  </div> 
 </div>
 
-<div class="whereby">
-   <h1>Whereby</h1>
-   <input type="text" placeholder="Enter your room name">
-   <button id="goToPage">Enter Room</button>
-</div>
+
