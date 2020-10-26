@@ -1,4 +1,4 @@
 # Dedechat
 
-* Create peer-to-peer video conference rooms!
+Create peer-to-peer video conference rooms!
 
